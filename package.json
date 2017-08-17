@@ -1,7 +1,6 @@
 {
   "name": "hello-form-ex",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +10,19 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "express-lowercase-paths": "^1.0.0",
+    "express-session": "^1.15.5",
     "express-validator": "^3.2.1",
     "mustache-express": "^1.2.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-Dark/todo-list-daily.git"
+  },
+  "bugs": {
+    "url": "https://github.com/R-Dark/todo-list-daily/issues"
+  },
+  "homepage": "https://github.com/R-Dark/todo-list-daily#readme",
+  "description": ""
 }

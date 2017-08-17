@@ -1,47 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/master.css">
+    <title></title>
+  </head>
+  <body>
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="/css/master.css">
-  <title>Todo List</title>
-</head>
+    <h1>Welcome to the greatest site in the world {{authUser.username}}!</h1>
 
-<div id="myDIV" class="header">
-  <h1>Todo List</h1>
-  <form class="" action="/" method="post">
-    <input type="text" value="" name="todos" id="myInput" placeholder="Todo...">
-    <input class="addBtn" type="submit" value="Submit">
-  </form>
-</div>
-
-<div id="myUl">
-  <h2>Current Tasks</h2>
-  <form class="" action="/completed" method="post">
-
-
-  {{#todos}}
-
-          <button class= "completeButton" type="submit" name="button" value="{{.}}">Mark Complete</button>
-          <h3 class="todoItem">{{.}}</h3>
-
-  {{/todos}}
-  </form>
-</div>
-
-<div class="">
-  <h2>Completed Tasks</h2>
-  {{#completed}}
-    <dl class="">
-      <dd>{{.}}</dd>
-    </dl>
-  {{/completed}}
-</div>
-
-</body>
-
+  </body>
 </html>
-
-<!-- <ul>
-  <input class="checkbox" type="checkbox" name="checkbox"> {{.}}</input>
-</ul> -->
