@@ -15,4 +15,11 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  color: white;
+  padding-top: 125px;
+}
+
+form input {
+  font-size: 20px;
+  padding: 10px 10px;
 }
